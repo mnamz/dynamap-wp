@@ -1,0 +1,56 @@
+#jobplace {
+    .app-title {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+} 
+
+.pin-overlayed-image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.pin {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background-color: red; 
+  border-radius: 50%; 
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+}
+
+.selectPin {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red; 
+  border-radius: 50%; 
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+}
+
+#map-preview img {
+  height: 500px !important;
+}
+
+.popup {
+  position: absolute;
+  transform: translateY(-10px);
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.popup-box {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 5px;
+}

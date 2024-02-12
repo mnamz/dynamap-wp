@@ -1,0 +1,19 @@
+{
+  "name": "dynamap",
+  "version": "1.0.0",
+  "description": "Custom scripts to support additional features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.1.0"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.10.5"
+  }
+}

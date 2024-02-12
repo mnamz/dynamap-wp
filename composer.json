@@ -1,0 +1,14 @@
+{
+    "name": "aliif/dynamic-map",
+    "autoload": {
+        "psr-4": {
+            "DynaMap\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aliif Zin"
+        }
+    ],
+    "require": {}
+}
